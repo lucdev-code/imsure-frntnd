@@ -22,6 +22,7 @@ export const NewsTextarea = ({
         onChange={onChange}
         placeholder="¿Qué pasó? ¿Dónde sucedió?"
         maxLength={maxLength}
+        minLength={10}
         minRows={3}
         maxRows={6}
         className={`
