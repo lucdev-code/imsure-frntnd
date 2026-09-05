@@ -4,6 +4,7 @@ interface NewDto {
   description: string;
 }
 
+console.log(API_URL)
 export const addNew = async (
   data: NewDto
 ): Promise<Response> => {
