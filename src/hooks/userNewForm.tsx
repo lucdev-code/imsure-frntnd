@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { addNew } from '../services/news';
 import { delay } from '../utils/delay';
 
-const MAX_LENGTH = 500;
+const MAX_LENGTH = 350;
 const SUBMIT_DELAY = 3000;
 
 export const useNewsForm = () => {
